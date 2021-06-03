@@ -1,16 +1,13 @@
 import { useRouter } from "next/router";
 
-const ContactPage = () => {
+const Client = () => {
   const router = useRouter();
-
-  console.log(router);
   console.log(router.query);
-
   return (
     <div>
-      <p>ContactPage id</p>
+      <p>This is a Client</p>
     </div>
   );
 };
 
-export default ContactPage;
+export default Client;

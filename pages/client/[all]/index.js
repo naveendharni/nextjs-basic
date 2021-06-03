@@ -1,16 +1,13 @@
 import { useRouter } from "next/router";
 
-const ContactPage = () => {
+const ClientDynamic = () => {
   const router = useRouter();
-
-  console.log(router);
   console.log(router.query);
-
   return (
     <div>
-      <p>ContactPage id</p>
+      <p>This is inside Client dynamic route</p>
     </div>
   );
 };
 
-export default ContactPage;
+export default ClientDynamic;
